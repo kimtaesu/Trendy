@@ -9,7 +9,7 @@ def gentrends(x, window=1/3.0, charts=True):
     """
 
     import numpy as np
-    import pandas.io.data as pd
+    import pandas as pd
 
     x = np.array(x)
 
